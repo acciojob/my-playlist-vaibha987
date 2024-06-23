@@ -21,18 +21,15 @@
 		h2{
 			text-align:center;
 		}
-		ul{
-			border:1px solid black;
+		.player_one{
 			background-color:white;
 			border-radius:10px 10px 10px 10px;
-			padding:30px;
-		}
-		.player{
-			background-color:rgb(255,255,255);
-			border-radius:10px;
-			border:1px solid black;
 			padding:10px;
-			margin:10px;
+		}
+		.player_two{
+			background-color:white;
+			border-radius:10px 10px 10px 10px;
+			padding:10px;
 		}
 	</style>
 </head>
@@ -56,11 +53,13 @@
 	<div>
 	<h2>Now Playing...</h2>
 		</div>
-	<div  class="player">
+	<div  class="player_one">
 	<video controls style="width:100%">
 		<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
 	</video>
+	</div>
 	<h2>MP3 songs</h2>
+	<div class="player_two">
 	<audio controls style="width:100%"> 
 		<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">	
 	</audio>
